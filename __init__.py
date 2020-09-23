@@ -2,7 +2,7 @@ import sys
 from mycroft import MycroftSkill, intent_file_handler
 from Adafruit_IO import MQTTClient
 
-ADAFRUIT_IO_KEY = 'aio_zuSA26bQJyrPjQgPPsJYjjFnkOxB'
+ADAFRUIT_IO_KEY = 'aio_JpvV56dpAlXoP0UrwnILHhPOqZn2'
 ADAFRUIT_IO_USERNAME = 'Kenzo16'
 
 client = MQTTClient(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
